@@ -1,0 +1,202 @@
+/* Add a black background color to the top navigation */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+.navbar{
+  background-color: #8e9aaf;
+  width: auto;
+  height: auto;
+  text-align: left;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #8e9aaf;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  box-shadow: 4px 8px 8px black ;
+  background-color: #cbc0d3;
+}
+
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 35px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Lora', serif;
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+box-shadow: 4px 8px 16px black;
+  background-color: #cbc0d3;
+  color: black;
+  transition-duration: 1s;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.nav {
+  border-right: 20px solid white;
+  background-color: #8e9aaf;
+}
+
+.head {
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  display: block;
+  padding-top: 5px;
+ 
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.index {
+  margin-left: 20%;
+  border-left: 2px solid white;
+}
+
+.body {
+  background-color: #EFD3D7;
+  margin-left: 18.5px;
+  margin-right: 18.5px;
+}
+
+.mission {
+  padding-bottom: 20px;
+  font-size: 27px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+h1 {
+  @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+  /* font-family: 'Satisfy', cursive; */
+  font-family: 'Slabo 27px', serif;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+
+h2 {
+  font-family: 'Slabo 27px', serif;
+}
+
+h3 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 1000;
+}
+
+p {
+  /* font-family:Times New Roman;  */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 22px;
+}
+
+.about {
+  border: 2px single black;
+  background-color: #DEE2FF;
+  border-style: outset;
+  border-radius: 2%;
+  /* border-color:rgb(132, 217, 238); */
+ margin: 5px;
+  width: 28%;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  box-shadow: 2px 4px 8px black;
+  
+  
+}
+.about:hover{
+    box-shadow: 4px 8px 16px #EFD3D7;
+    transition: 1s;
+   
+}
+
+.aboutus {
+  text-align: center;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+.button {
+  display: flex;
+  justify-content: space-evenly;
+  color: black;
+ 
+}
+
+button {
+  
+  background-color: #cbc0d3;
+  width: 150px;
+  height: 80px;
+  box-shadow: 2px 4px 8px black;
+  margin: auto;
+}
+
+button:hover {
+
+  background-color: #EFD3D7;
+  color: white;
+  box-shadow: 4px 8px 16px black;
+}
+
+/*//.three-photos {
+//	height: 300px;
+//	width: 300px;
+//	object-fit: fit;
+//	border: 2px solid black;
+//}
+
+//.us{
+// display: flex;
+// flex-direction: row;
+// justify-content:space-between;
+// position: relative;
+//}*/
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly
+}
